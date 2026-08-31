@@ -1,7 +1,6 @@
 class Coalesce < Formula
   desc "Bitcoin-native distributed settlement network"
   homepage "https://github.com/ayushn2/coalesce-releases"
-  version "0.1.16"
 
   on_macos do
     if Hardware::CPU.arm?

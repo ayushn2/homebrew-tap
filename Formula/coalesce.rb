@@ -4,21 +4,21 @@ class Coalesce < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/ayushn2/coalesce-releases/releases/download/v0.1.17/coalesce-node-darwin-arm64"
-      sha256 "3bf1c308845c4f6834eaceba80654e3d37af9c3259f7f73132cce7e0c9829deb"
+      url "https://github.com/ayushn2/coalesce-releases/releases/download/v0.1.19/coalesce-node-darwin-arm64"
+      sha256 "d526c9309f7df115b99c751e3e6d37db44796e7c1421de13b127b6b4842844ca"
     else
-      url "https://github.com/ayushn2/coalesce-releases/releases/download/v0.1.17/coalesce-node-darwin-amd64"
-      sha256 "8822522a11f196206969c8627b044059f625cd61f13bca8657ce5c886db4129d"
+      url "https://github.com/ayushn2/coalesce-releases/releases/download/v0.1.19/coalesce-node-darwin-amd64"
+      sha256 "fa136ca0df0bcbddd2db0cb9c492bea4630ae41d81eeb225788e83ed90ce8122"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/ayushn2/coalesce-releases/releases/download/v0.1.17/coalesce-node-linux-arm64"
-      sha256 "626168540094a9aad45f6944af2a47970e2fd1e0edd8690ebc4d0b024eb181e4"
+      url "https://github.com/ayushn2/coalesce-releases/releases/download/v0.1.19/coalesce-node-linux-arm64"
+      sha256 "21c9d84a92489ef949641bf12589db32f8e7a97ef091f136645a057a706e112d"
     else
-      url "https://github.com/ayushn2/coalesce-releases/releases/download/v0.1.17/coalesce-node-linux-amd64"
-      sha256 "6cf7c859ebffb73a8afb6d7a3c798d21718cd0e186a58f78b2c6cef135a90fb9"
+      url "https://github.com/ayushn2/coalesce-releases/releases/download/v0.1.19/coalesce-node-linux-amd64"
+      sha256 "e0a66a4ae668abfbed3f03ec95429b6d264221e45dfb87622f244817a131c93e"
     end
   end
 
